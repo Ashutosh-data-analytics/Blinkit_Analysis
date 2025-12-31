@@ -56,26 +56,6 @@ All KPIs were calculated on the **entire dataset (8,523+ records)**:
 
 ---
 
-## 🗂️ Project Structure
-Blinkit-Sales-Analysis/
-│
-├── raw-data/
-│ └── README.md # Large raw datasets & KPI requirements
-│
-├── excel/
-│ └── README.md # Excel analysis
-│
-├── sql/
-│ └── README.md # SQL queries for large-scale KPIs
-│
-├── python/
-│ └── README.md # Python EDA & validation
-│
-├── powerbi/
-│ └── README.md # Power BI dashboard files
-│
-├── README.md # 
-  └── Project overview (this file) Dashboard.png # Final dashboard preview
 
 
 ---
