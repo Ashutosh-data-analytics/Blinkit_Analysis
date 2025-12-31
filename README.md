@@ -18,7 +18,7 @@ The project focuses on **efficiently handling, cleaning, aggregating, and visual
 
 ## 🖼️ Dashboard Preview
 
-![Blinkit Sales Dashboard](./Dashboard.png)
+![Blinkit Sales Dashboard](Blinkit%20Dashboard.png)
 
 ---
 
@@ -61,22 +61,22 @@ All KPIs were calculated on the **entire dataset (8,523+ records)**:
 Blinkit-Sales-Analysis/
 │
 ├── raw-data/
-│ └── README.md # Large raw datasets & KPI requirements
+│   └── README.md        # Large raw datasets & KPI requirements
 │
 ├── excel/
-│ └── README.md # Excel analysis & dashboard
+│   └── README.md        # Excel analysis & dashboard
 │
 ├── sql/
-│ └── README.md # SQL queries for large-scale KPIs
+│   └── README.md        # SQL queries for large-scale KPIs
 │
 ├── python/
-│ └── README.md # Python EDA & validation
+│   └── README.md        # Python EDA & validation
 │
 ├── powerbi/
-│ └── README.md # Power BI dashboard files
+│   └── README.md        # Power BI dashboard files
 │
-├── Dashboard.png # Final dashboard preview
-└── README.md # Project overview (this file)
+├── Blinkit Dashboard.png # Final dashboard preview
+└── README.md             # Project overview (this file)
 
 ---
 
