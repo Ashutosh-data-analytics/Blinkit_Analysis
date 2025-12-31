@@ -17,9 +17,8 @@ The project focuses on **efficiently handling, cleaning, aggregating, and visual
 ---
 
 ## 🖼️ Dashboard Preview
-Below is the final **Power BI Dashboard** summarizing insights derived from the complete dataset:
 
-![Blinkit Sales Dashboard](Dashboard.png)
+![Blinkit Sales Dashboard](./Dashboard.png)
 
 ---
 
