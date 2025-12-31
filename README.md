@@ -86,19 +86,19 @@ These metrics explain **why performance varies** across products, outlets, and l
 
 ## 🗂️ Project Structure
 
-- **raw-data/**
+- **Raw-Data/**
   - `README.md` — Raw dataset overview & KPI requirements  
 
-- **excel/**
+- **Excel/**
   - `README.md` — Excel analysis & dashboard  
 
-- **sql/**
+- **SQL/**
   - `README.md` — SQL queries for KPI computation  
 
-- **python/**
+- **Python/**
   - `README.md` — Python EDA & validation  
 
-- **powerbi/**
+- **Power BI/**
   - `README.md` — Power BI dashboard files  
 
 - **Blinkit Dashboard.png**
