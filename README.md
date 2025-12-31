@@ -7,7 +7,7 @@
 ## 🚀 Project Overview
 This project is a **complete end-to-end Data Analytics case study** based on **Blinkit – India’s Last Minute App**, built using a **large, real-world structured dataset**.
 
-The objective is to demonstrate the ability to **process, analyze, and visualize thousands of records**, convert **business requirements into KPIs**, and generate **actionable insights** for decision-making.
+The objective is to demonstrate the ability to **process, analyze, and visualize thousands of records**, translate **business requirements into KPIs**, and generate **actionable business insights**.
 
 ---
 
@@ -21,20 +21,20 @@ The objective is to demonstrate the ability to **process, analyze, and visualize
   - Outlet Locations (Tier 1 / Tier 2 / Tier 3)  
   - Outlet Establishment Year  
 
-This dataset size introduces **realistic aggregation, filtering, and performance challenges** across tools.
+This dataset introduces **real-world scale challenges** in aggregation, filtering, and performance optimization.
 
 ---
 
 ## 🖼️ Dashboard Preview
 
-<img src="https://raw.githubusercontent.com/Ashutosh-data-analytics/Blinkit_Analysis/main/Blinkit%20Dashboard.png" width="100%">
+<img src="Blinkit Dashboard.png" width="100%">
 
 ---
 
 ## 🎯 Business Objective
 To analyze Blinkit’s sales data and answer key business questions:
 
-- How is sales performance trending across years?
+- How is overall sales performance trending across years?
 - Which product categories generate maximum revenue?
 - How do outlet size and location impact large-scale sales?
 - What is the overall customer satisfaction level?
@@ -45,12 +45,12 @@ To analyze Blinkit’s sales data and answer key business questions:
 ## 📌 KPIs & Metrics Used
 
 ### 🔑 Primary (Executive) KPIs  
-Defined via **Business Requirement / KPI PPT** and tracked across all tools:
+Defined via **Business Requirement / KPI PPT** and tracked consistently across tools:
 
 - **Total Sales** – Overall revenue generated  
 - **Average Sales** – Average revenue per transaction  
 - **Number of Items Sold** – Sales volume indicator  
-- **Average Rating** – Customer satisfaction score  
+- **Average Rating** – Customer satisfaction metric  
 
 ### 📊 Primary KPI Results (Full Dataset)
 - **Total Sales:** $1.20M  
@@ -61,7 +61,7 @@ Defined via **Business Requirement / KPI PPT** and tracked across all tools:
 ---
 
 ### 📈 Additional KPIs & Analytical Metrics
-Beyond the main 4 KPIs, the following metrics were derived to generate deeper insights:
+In addition to the main KPIs, the following metrics were derived to uncover deeper insights:
 
 - Sales by Outlet Type (Supermarket Type 1/2/3, Grocery Store)  
 - Sales by Outlet Size (Small, Medium, High)  
@@ -70,9 +70,9 @@ Beyond the main 4 KPIs, the following metrics were derived to generate deeper in
 - Item Visibility vs Sales Impact  
 - Fat Content Performance (Low Fat vs Regular)  
 - Top & Bottom Performing Item Categories  
-- Outlet-wise Item Count Contribution  
+- Outlet-wise Item Contribution  
 
-These metrics explain **why performance varies** across outlets, products, and locations.
+These metrics explain **why performance varies** across products, outlets, and locations.
 
 ---
 
@@ -86,26 +86,26 @@ These metrics explain **why performance varies** across outlets, products, and l
 
 ## 🗂️ Project Structure
 
-- **Raw-Data/**
-  - `README.md` — Raw dataset overview & KPI requirements
+- **raw-data/**
+  - `README.md` — Raw dataset overview & KPI requirements  
 
-- **Excel/**
-  - `README.md` — Excel analysis & dashboard
+- **excel/**
+  - `README.md` — Excel analysis & dashboard  
 
-- **SQL/**
-  - `README.md` — SQL queries for KPI computation
+- **sql/**
+  - `README.md` — SQL queries for KPI computation  
 
-- **Python/**
-  - `README.md` — Python EDA & validation
+- **python/**
+  - `README.md` — Python EDA & validation  
 
-- **Power BI/**
-  - `README.md` — Power BI dashboard files
+- **powerbi/**
+  - `README.md` — Power BI dashboard files  
 
 - **Blinkit Dashboard.png**
-  - Final Power BI dashboard preview
+  - Final Power BI dashboard preview  
 
 - **README.md**
-  - Project overview (this file)
+  - Project overview (this file)  
 
 ---
 
@@ -162,7 +162,7 @@ Power BI was the **final reporting layer**, designed for:
 2. Explore **Excel** for initial KPI validation  
 3. Examine **SQL** scripts for scalable transformations  
 4. Review **Python** notebooks for EDA  
-5. Open **Power BI dashboard** for interactive insights  
+5. Open the **Power BI dashboard** for interactive insights  
 
 ---
 
