@@ -7,40 +7,52 @@
 ## 🚀 Project Overview
 This project is a **complete end-to-end Data Analytics case study** based on **Blinkit – India’s Last Minute App**, built using a **large, real-world structured dataset**.
 
-📦 **Dataset Size & Complexity**
-- **Rows:** 8,523+ transaction records  
-- **Columns:** 12 business attributes  
-- **Dimensions:** Products, outlets, locations, outlet types, outlet sizes, and time (establishment year)
+The objective is to demonstrate the ability to **process, analyze, and visualize thousands of records**, convert **business requirements into KPIs**, and generate **actionable insights** for decision-making.
 
-The project focuses on **efficiently handling, cleaning, aggregating, and visualizing thousands of records** and converting them into **actionable business insights** using industry-standard analytics tools.
+---
+
+## 📦 Dataset Size & Complexity
+- **Records:** 8,523+ transaction rows  
+- **Attributes:** 12 business columns  
+- **Dimensions Covered:**  
+  - Products & Item Types  
+  - Outlet Types  
+  - Outlet Sizes  
+  - Outlet Locations (Tier 1 / Tier 2 / Tier 3)  
+  - Outlet Establishment Year  
+
+This dataset size introduces **realistic aggregation, filtering, and performance challenges** across tools.
 
 ---
 
 ## 🖼️ Dashboard Preview
 
-![Blinkit Sales Dashboard](Blinkit%20Dashboard.png)
+<img src="https://raw.githubusercontent.com/Ashutosh-data-analytics/Blinkit_Analysis/main/Blinkit%20Dashboard.png" width="100%">
 
 ---
 
 ## 🎯 Business Objective
-To analyze Blinkit’s large sales dataset and answer critical business questions:
-- How is overall sales performance trending across years?
-- Which product categories drive the most revenue?
-- How do outlet size and location affect large-scale sales?
-- What is customer satisfaction across thousands of transactions?
+To analyze Blinkit’s sales data and answer key business questions:
+
+- How is sales performance trending across years?
+- Which product categories generate maximum revenue?
+- How do outlet size and location impact large-scale sales?
+- What is the overall customer satisfaction level?
 - Which outlet types scale best in terms of revenue and volume?
 
 ---
 
-## 📌 Key KPIs (Computed on Full Dataset)
-All KPIs were calculated on the **entire dataset (8,523+ records)**:
+## 📌 KPIs & Metrics Used
 
-- **Total Sales**
-- **Average Sales**
-- **Number of Items Sold**
-- **Average Customer Rating**
+### 🔑 Primary (Executive) KPIs  
+Defined via **Business Requirement / KPI PPT** and tracked across all tools:
 
-### 📊 Overall Results
+- **Total Sales** – Overall revenue generated  
+- **Average Sales** – Average revenue per transaction  
+- **Number of Items Sold** – Sales volume indicator  
+- **Average Rating** – Customer satisfaction score  
+
+### 📊 Primary KPI Results (Full Dataset)
 - **Total Sales:** $1.20M  
 - **Average Sales:** $140.99  
 - **Number of Items:** 8,523  
@@ -48,99 +60,109 @@ All KPIs were calculated on the **entire dataset (8,523+ records)**:
 
 ---
 
+### 📈 Additional KPIs & Analytical Metrics
+Beyond the main 4 KPIs, the following metrics were derived to generate deeper insights:
+
+- Sales by Outlet Type (Supermarket Type 1/2/3, Grocery Store)  
+- Sales by Outlet Size (Small, Medium, High)  
+- Sales by Outlet Location Tier  
+- Sales Trend by Outlet Establishment Year  
+- Item Visibility vs Sales Impact  
+- Fat Content Performance (Low Fat vs Regular)  
+- Top & Bottom Performing Item Categories  
+- Outlet-wise Item Count Contribution  
+
+These metrics explain **why performance varies** across outlets, products, and locations.
+
+---
+
 ## 🛠️ Tools & Technologies (Built for Scale)
-- **Excel** – Initial exploration, pivot tables, KPI validation on large data  
-- **SQL** – Core data cleaning, aggregation, KPI computation on thousands of rows  
-- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – EDA and validation on full dataset  
-- **Power BI** – Performance-optimized interactive dashboard  
+- **Excel** – Initial exploration, pivot tables, KPI validation  
+- **SQL** – Data cleaning, aggregation, KPI computation on large datasets  
+- **Python (Pandas, NumPy, Matplotlib, Seaborn)** – EDA & KPI cross-verification  
+- **Power BI** – Interactive, performance-optimized dashboard  
 
 ---
 
 ## 🗂️ Project Structure
 
-raw-data/
+- **Raw-Data/**
+  - `README.md` — Raw dataset overview & KPI requirements
 
-README.md — Large raw datasets & KPI requirements
+- **Excel/**
+  - `README.md` — Excel analysis & dashboard
 
-excel/
+- **SQL/**
+  - `README.md` — SQL queries for KPI computation
 
-README.md — Excel analysis & dashboard
+- **Python/**
+  - `README.md` — Python EDA & validation
 
-sql/
+- **Power BI/**
+  - `README.md` — Power BI dashboard files
 
-README.md — SQL queries for large-scale KPIs
+- **Blinkit Dashboard.png**
+  - Final Power BI dashboard preview
 
-python/
-
-README.md — Python EDA & validation
-
-powerbi/
-
-README.md — Power BI dashboard files
-
-Blinkit Dashboard.png
-
-Final dashboard preview
-
-README.md
-
-Project overview (this file)
+- **README.md**
+  - Project overview (this file)
 
 ---
 
-## 📊 Excel Analysis (Large Dataset Handling)
+## 📊 Excel Analysis
 Excel was used as the **initial analytical layer** to:
-- Explore and understand 8,500+ records
-- Build pivot tables on large datasets
-- Validate KPIs before automation
-- Create an Excel dashboard for early insights
+- Explore and understand 8,500+ records  
+- Build pivot tables on large datasets  
+- Validate KPIs defined in the PPT  
+- Identify early trends and anomalies  
 
 ---
 
-## 🧮 SQL Analysis (Core Processing Layer)
-SQL was the **primary engine for large-scale data processing**:
-- Standardized inconsistent categorical values
-- Aggregated thousands of transactional records
-- Computed KPIs using optimized `GROUP BY`
-- Performed outlet, product, and location-level analysis
-- Used advanced SQL concepts (`CASE`, `PIVOT`, window functions)
+## 🧮 SQL Analysis
+SQL served as the **core processing layer**:
+- Standardized categorical values  
+- Aggregated thousands of transactions  
+- Computed KPIs using optimized `GROUP BY`  
+- Performed outlet-, item-, and location-level analysis  
 
-SQL outputs served as the **single source of truth**.
-
----
-
-## 🐍 Python Analysis (EDA & Validation)
-Python was used for **Exploratory Data Analysis (EDA)** on the full dataset:
-- Efficient data loading and inspection
-- Data quality checks and standardization
-- KPI recalculation for cross-verification
-- Trend and distribution visualization
+SQL outputs acted as the **single source of truth**.
 
 ---
 
-## 📈 Power BI Dashboard (Performance-Optimized)
-Power BI served as the **final reporting layer**, designed to handle:
-- Thousands of records efficiently
-- Fast slicer-based filtering
-- Multi-dimensional analysis without performance lag
+## 🐍 Python Analysis
+Python was used for **EDA and validation**:
+- Data quality checks  
+- KPI recalculation for accuracy  
+- Trend and distribution analysis  
+- Cross-verification with SQL results  
 
 ---
 
-## 🔍 Key Insights from Large-Scale Data
-- **Tier 3 outlets** generate the highest total sales
-- **Medium-sized outlets** contribute maximum revenue
-- **Low Fat products** outperform Regular products
-- **Fruits & Vegetables** and **Snack Foods** dominate sales
-- **Supermarket Type 1** scales best in revenue and item count
+## 📈 Power BI Dashboard
+Power BI was the **final reporting layer**, designed for:
+- Fast filtering on large datasets  
+- Multi-dimensional slicing  
+- Business-friendly KPI visualization  
+- Executive-level insights  
+
+---
+
+## 🔍 Key Insights & Findings
+- **Tier 3 outlets** generate the highest total sales  
+- **Medium-sized outlets** outperform small and large outlets  
+- **Low Fat products** consistently outperform Regular products  
+- **Fruits & Vegetables** and **Snack Foods** dominate revenue  
+- **Supermarket Type 1** leads in both revenue and item volume  
+- **Item visibility** has a measurable impact on sales performance  
 
 ---
 
 ## ▶️ How to Use This Project
-1. Review large raw datasets in the `raw-data` folder  
-2. Explore Excel analysis for early KPI validation  
-3. Examine SQL scripts for scalable transformations  
-4. Review Python notebooks for EDA  
-5. Open the Power BI dashboard for interactive insights  
+1. Review **raw-data** to understand dataset structure  
+2. Explore **Excel** for initial KPI validation  
+3. Examine **SQL** scripts for scalable transformations  
+4. Review **Python** notebooks for EDA  
+5. Open **Power BI dashboard** for interactive insights  
 
 ---
 
@@ -153,10 +175,8 @@ Data Analyst
 
 ## ⚠️ Disclaimer
 This project is created for **educational and portfolio purposes only**.  
-The dataset does not represent real Blinkit operational data.
+The dataset does not represent actual Blinkit operational data.
 
 ---
 
 ⭐ If you find this project useful, consider starring the repository!
-
-add this image its updated
