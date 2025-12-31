@@ -3,7 +3,7 @@
 ## Overview
 This folder contains the Power BI dashboard created for the Blinkit Sales Analysis project.
 
-Power BI is used as the final visualization and reporting layer, consolidating insights derived from Excel, SQL, and Python into an interactive business dashboard.
+Power BI is used as the final visualization and reporting layer, consolidating insights derived from Excel, SQL, and Python into an interactive business dashboard. 
 
 ---
 
