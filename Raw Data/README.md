@@ -1,4 +1,4 @@
-# Raw Data Folder – Blinkit Sales Analysis
+# 📂 Raw Data Folder – Blinkit Sales Analysis
 
 ## Overview
 This folder contains the original raw datasets, KPI reference presentation, and Excel source files used in the Blinkit Sales Analysis project.
