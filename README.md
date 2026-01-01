@@ -18,7 +18,7 @@ The objective is to demonstrate the ability to **process, analyze, and visualize
   - Products & Item Types  
   - Outlet Types  
   - Outlet Sizes  
-  - Outlet Locations (Tier 1 / Tier 2 / Tier 3)  
+  - Outlet Locations 
   - Outlet Establishment Year  
 
 This dataset introduces **real-world scale challenges** in aggregation, filtering, and performance optimization.
