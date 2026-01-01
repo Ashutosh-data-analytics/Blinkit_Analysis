@@ -65,7 +65,7 @@ In addition to the main KPIs, the following metrics were derived to uncover deep
 
 - Sales by Outlet Type (Supermarket Type 1/2/3, Grocery Store)  
 - Sales by Outlet Size (Small, Medium, High)  
-- Sales by Outlet Location Tier  
+- Sales by Outlet Location Tier (Tier 1/2/3)  
 - Sales Trend by Outlet Establishment Year  
 - Item Visibility vs Sales Impact  
 - Fat Content Performance (Low Fat vs Regular)  
