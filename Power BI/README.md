@@ -1,4 +1,4 @@
-# 📊 Power BI Dashboard – Blinkit Sales Analysis
+# 📈 Power BI Dashboard – Blinkit Sales Analysis
 
 ## 📌 Overview
 This folder contains the **Power BI dashboard** created for the **Blinkit Sales Analysis** project.
