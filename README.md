@@ -158,7 +158,7 @@ Power BI was the **final reporting layer**, designed for:
 ---
 
 ## ▶️ How to Use This Project
-1. Review **raw-data** to understand dataset structure  
+1. Review **Raw-Data** to understand dataset structure  
 2. Explore **Excel** for initial KPI validation  
 3. Examine **SQL** scripts for scalable transformations  
 4. Review **Python** notebooks for EDA  
