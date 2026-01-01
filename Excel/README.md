@@ -1,4 +1,4 @@
-# Excel Analysis – Blinkit Sales Project
+# 📊 Excel Analysis – Blinkit Sales Project
 
 ## Overview
 This folder contains Microsoft Excel files used in the Blinkit Sales Analysis project.
