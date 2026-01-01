@@ -1,4 +1,4 @@
-# Python Analysis – Blinkit Sales Project
+# 🐍 Python Analysis – Blinkit Sales Project
 
 ## Overview
 This folder contains Python scripts and notebooks used for **exploratory data analysis (EDA)**, **data cleaning**, **KPI validation**, and **visualization** in the Blinkit Sales Analysis project.
